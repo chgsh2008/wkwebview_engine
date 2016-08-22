@@ -15,6 +15,29 @@
         <param name="ios-package" value="CDVGestureHandler" />
         <param name="onload" value="true" />
     </feature>
+    <!-- e帆网 -->
+    <feature name="BSLDatabase">
+        <param name="ios-package" value="BSLDatabase" />
+    </feature>
+    <feature name="BSLNetwork">
+        <param name="ios-package" value="BSLNetwork" />
+    </feature>
+    <feature name="BSLNHWebCache">
+        <param name="ios-package" value="BSLNHWebCache" />
+    </feature>
+    <feature name="BSLTools">
+        <param name="ios-package" value="BSLTools" />
+    </feature>
+    <feature name="BSLTransfer">
+        <param name="ios-package" value="BSLTransfer" />
+    </feature>
+    <feature name="BSLUserNotification">
+        <param name="ios-package" value="BSLUserNotification" />
+    </feature>
+    <feature name="BSLBaiduStatistical">
+        <param name="ios-package" value="BSLBaiduStatistical" />
+    </feature>
+    
     <name>BUMP</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.

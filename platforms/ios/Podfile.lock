@@ -1,0 +1,13 @@
+PODS:
+  - JRNLocalNotificationCenter (0.0.3)
+  - SVProgressHUD (2.0.3)
+
+DEPENDENCIES:
+  - JRNLocalNotificationCenter (~> 0.0.3)
+  - SVProgressHUD (~> 2.0.3)
+
+SPEC CHECKSUMS:
+  JRNLocalNotificationCenter: 1cf072a5e742a84a234b6f316e4bb2a6f64a1c3f
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+
+COCOAPODS: 0.39.0

@@ -1,0 +1,14 @@
+[
+{
+"icon":"..\/img\/icon-message.png",
+"identifier":"com.foss.message.record"
+},
+{
+"icon":"..\/img\/icon-notice.png",
+"identifier":"com.foss.announcement"
+},
+{
+"icon":"..\/img\/icon-chat.png",
+"identifier":"pushTest"
+}
+]

@@ -47,7 +47,8 @@
     if (self) {
         NSURL *www = [self wwwBundleDirectory];
         NSURL *demoIndex = [www URLByAppendingPathComponent:@"com.infinitus.bslH5.demo/index.html"];
-//        self.startPage = @"com.infinitus.bslH5.demo/index.html";//[demoIndex path];
+        self.startPage = @"com.infinitus.bslH5.demo/index.html#com.infinitus.bslH5.demo/";//[demoIndex path];
+//        self.startPage = @"Demo/index.html";
         // Uncomment to override the CDVCommandDelegateImpl used
         // _commandDelegate = [[MainCommandDelegate alloc] initWithViewController:self];
         // Uncomment to override the CDVCommandQueue used

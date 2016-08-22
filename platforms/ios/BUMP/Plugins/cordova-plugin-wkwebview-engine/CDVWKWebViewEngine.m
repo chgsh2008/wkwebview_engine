@@ -63,6 +63,7 @@
         WKWebView* wkWebView = [[WKWebView alloc] initWithFrame:frame configuration:configuration];
 
         wkWebView.UIDelegate = self.uiDelegate;
+        wkWebView.navigationDelegate = self.wkNavigationDelegate;
 
         self.engineWebView = wkWebView;
 

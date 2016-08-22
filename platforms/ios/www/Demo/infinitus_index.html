@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="msapplication-tap-highlight" content="no"/>
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width"/>
+    <link rel="stylesheet" type="text/css" href="css/button.css"/>
+<!--    <link rel="stylesheet" type="text/css" href="css/index.css"/>-->
+    <title>网络</title>
+    <script type="text/javascript" src="../cordova.js"></script>
+    <script data-main="infinitus_index" src="../vendor/lib/require.js"></script>
+    <script type="text/javascript" src="../infinitus.js"></script>
+</head>
+<body>
+	<img id="cacheimg" height="100" width="100" src="/var/mobile/Containers/Data/Application/39FD6980-C55F-4315-BF9C-9EF2FB9E1355/Library/Caches/ImageCache/df8d48f3af58fd1f0126ab33b663a51e"/>
+<p style="font-family:huakang;">infinitus 旧接口</p>
+<div style="font-family:huakang;">Picker对象</div>
+<button id="btnShowDialog_Picker" class="button">Dialog显示</button>
+<button id="btnShowDataPicker" class="button">数据打开接口</button>
+<button id="btnConfirmBusinessPwd_Picker" class="button">UI3.0业务密码确认</button>
+<div style="font-family:huakang;">iTools 工具类</div>
+<button id="btnOpenLocalFile" class="button">打开文件</button>
+<button id="btnSendMessage" class="button">发短信</button>
+<button id="btnGetCommonParam" class="button">getCommonParam</button>
+<button id="btnSetTitle" class="button">设置页面标题</button>
+<button id="btnShowDialog" class="button">显示对话框</button>
+<button id="btnCloseDialog" class="button">关闭对话框</button>
+<button id="btnShare2WX" class="button">微信分享</button>
+<button id="btnShowToast" class="button">显示提示Toast</button>
+<button id="btnAdjustToast" class="button">调整Toast提示y坐标</button>
+<button id="btnShowLoading" class="button">显示加载中进度框</button>
+<button id="btnDismissLoading" class="button">关闭加载中进度框</button>
+<button id="btnSetBackAction" class="button">设置返回动作</button>
+<button id="btnLookPhoto" class="button">缩放图片</button>
+<button id="btnChooseSysPhoto" class="button">选取相册图片</button>
+<button id="btnChooseMorePhotoToH5" class="button">选取系统相册(数量限制,可再次返回选择)</button>
+<button id="btnChooseCropPhotoToH5" class="button">图片缩放翻转</button>
+<button id="btnPostScrollHeightToTop" class="button">存储页面和高度</button>
+<button id="btnScanBarcode" class="button">扫描二维码</button>
+<button id="btnSendScanningResults" class="button">进入扫描页面</button>
+<button id="btnCloseBarcode" class="button">关闭扫描界面</button>
+<button id="btnGetHost" class="button">获取Host</button>
+<button id="btnCheckVersion" class="button">客户端版本检测</button>
+<button id="btnMakePhoneCall" class="button">打电话</button>
+<button id="btnLogout" class="button">安全退出</button>
+<button id="btnShowDatePicker" class="button">日期选择器</button>
+<button id="btnConfirmBusinessPwd" class="button">业务密码确认</button>
+<button id="btnEcbEncrypt" class="button">ecb加密</button>
+<button id="btnSaveTempCache" class="button">保存网页临时缓存</button>
+<button id="btnReadTempCache" class="button">读取网页临时缓存</button>
+<button id="btnCleanTempCache" class="button">清除网页临时缓存</button>
+<button id="btnRotateScreen" class="button">旋转屏幕</button>
+<button id="btnAddTipsToController" class="button">显示指引页</button>
+<button id="btnThemeColor" class="button">获取主题颜色值</button>
+<button id="btnCallPadLeftJS" class="button">调用ipad左边分屏js函数</button>
+<button id="btnTakePhoto" class="button">拍照</button>
+<button id="btnGetLocation" class="button">获取定位</button>
+<button id="btnUploadFileByByte" class="button">上传文件</button>
+<button id="btnUploadPhoto" class="button">上传图片</button>
+<button id="btnOpenAppAndCopyMsg" class="button">打开微信或者QQ，并复制内容到剪贴板</button>
+<button id="btnWeChatPay" class="button">微信支付</button>
+<button id="btncheckAppInstall" class="button">检测是否安装微博</button>
+<button id="btncheckPreview" class="button">图片组预览</button>
+<button id="btnChooseSysPhoto_New" class="button">新->单选图片</button>
+<button id="btnChooseSysPhoto_Old" class="button">旧->单选图片</button>
+<button id="btnChooseMorePhotoToH5_New" class="button">新->多选图片</button>
+<button id="btnChooseMorePhotoToH5_Old" class="button">旧->多选图片</button>
+<button id="btnChoosePhotos_New" class="button">新->多选图片,参数齐全</button>
+<button id="btnChoosePhotos_Old" class="button">旧->多选图片,参数齐全</button>
+<button id="btnAudioServicesPlay" class="button">震动并播放声音</button>
+</br>
+</br>
+</br>
+<div style="font-family:huakang;">Transfer 页面跳转对象</div>
+<button id="btnGotoBusinessQuery" class="button">根据ID打开BENDI模块</button>
+<button id="btnReturnBack" class="button">返回</button>
+<button id="btnOpenPage" class="button">打开视图</button>
+<button id="btnOpenPageWithTitle" class="button">打开视图 带title</button>
+<button id="btnOpenPageWithOption" class="button">打开视图 (综合前两个OpenPage)</button>
+<button id="btnClosePage" class="button">关闭视图</button>
+<button id="btnLoadPageWithUrl" class="button">加载新页面</button>
+<button id="btnLogoutByUserInvalid" class="button">登出该账号</button>
+<button id="btnGoHome" class="button">返回首页</button>
+<button id="btnLogin" class="button">登录</button>
+<button id="btnOpenPayPage" class="button">跳转到支付页面</button>
+<button id="btnLoadSplitWebViewRequest" class="button">加载分割页面</button>
+<button id="btnPickContact" class="button">选择通信录</button>
+</br></br>
+</br>
+<div style="font-family:huakang;">User Default 用户设置信息对象</div>
+<button id="btnReadValue" class="button">读取用户设置信息</button>
+<button id="btnSaveValue" class="button">保存信息到用户设置</button>
+</br></br>
+</br>
+<div style="font-family:huakang;">database数据库对象</div>
+<button id="btnQuerySql" class="button">sql查询</button>
+<button id="btnExecSql" class="button">执行sql</button>
+</br></br>
+</br>
+<div style="font-family:huakang;">cache缓存处理对象</div>
+<button id="btnClean" class="button">清除缓存</button>
+<button id="btnSetH5Cache" class="button">设置缓存</button>
+<button id="btnGetH5Cache" class="button">获取缓存</button>
+<button id="btnClearH5Cache" class="button">清除H5缓存</button>
+<button id="btnCacheImageWithUrl" class="button">下载图片并缓存到缓存器中</button>
+</br></br>
+</br>
+<div style="font-family:huakang;">network网络请求对象</div>
+<button id="btnGet" class="button">get方式请求http接口内容</button>
+<button id="btnPost" class="button">post方式请求http接口内容</button>
+<button id="btnGetForCDN" class="button">get方式请求http接口内容(CDN)</button>
+<button id="btnPostForCDN" class="button">post方式请求http接口内容(CDN)</button>
+<button id="btnCheckNetState" class="button">网络状态</button>
+<button id="btnUploadContacts" class="button">上传通讯录到服务器</button>
+<button id="btnShowLastNetworkErrorInfo" class="button">显示网络错误信息</button>
+<button id="btncheckNetworkChanging" class="button">监听网络变化</button>
+</br></br>
+</br>
+<div style="font-family:huakang;">百度统计</div>
+<button id="btnRecordPageStart" class="button">记录某页面的跳入</button>
+<button id="btnRecordPageEnd" class="button">记录某页面的跳出</button>
+<button id="btnRecordEventNumber" class="button">记录一次事件点击</button>
+<button id="btnRecordEventStart" class="button">记录一次事件开始</button>
+<button id="btnRecordEventEnd" class="button">记录一次事件结束</button>
+</br></br>
+</br>
+<div style="font-family:huakang;">本地通知</div>
+<button id="addNotification" class="button">添加通知</button>
+<button id="removeNotification" class="button">删除通知</button>
+<button id="getNotification" class="button">获取在执行中的通知</button>
+
+<div id="LOG"></div>
+
+</br></br>
+</body>
+</html>
