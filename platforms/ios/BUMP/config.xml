@@ -15,6 +15,7 @@
         <param name="ios-package" value="CDVGestureHandler" />
         <param name="onload" value="true" />
     </feature>
+    
     <!-- e帆网 -->
     <feature name="BSLDatabase">
         <param name="ios-package" value="BSLDatabase" />
@@ -37,7 +38,7 @@
     <feature name="BSLBaiduStatistical">
         <param name="ios-package" value="BSLBaiduStatistical" />
     </feature>
-    
+
     <name>BUMP</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
@@ -55,7 +56,6 @@
     <allow-intent href="geo:*" />
     <allow-intent href="itms:*" />
     <allow-intent href="itms-apps:*" />
-    <allow-navigation href="gap://ready" />
     <allow-navigation href="*" />
     <preference name="AllowInlineMediaPlayback" value="false" />
     <preference name="BackupWebStorage" value="local" />

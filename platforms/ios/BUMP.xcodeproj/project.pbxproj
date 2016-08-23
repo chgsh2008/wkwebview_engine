@@ -7,27 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01B518EDCB3FFEDEC9FFCBC7 /* libPods-BUMP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E829709DF9ACABB186F55E51 /* libPods-BUMP.a */; };
 		0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0207DA571B56EA530066E2B4 /* Images.xcassets */; };
-		0A55BE371D6AD306009EC302 /* CDVWKNavigationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A55BE361D6AD306009EC302 /* CDVWKNavigationDelegate.m */; };
-		0A55BE4C1D6AD6DA009EC302 /* BSLBaiduStatistical.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A55BE3B1D6AD6DA009EC302 /* BSLBaiduStatistical.m */; };
-		0A55BE4D1D6AD6DA009EC302 /* BSLCatStatistical.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A55BE3D1D6AD6DA009EC302 /* BSLCatStatistical.m */; };
-		0A55BE4E1D6AD6DA009EC302 /* BSLDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A55BE3F1D6AD6DA009EC302 /* BSLDatabase.m */; };
-		0A55BE4F1D6AD6DA009EC302 /* BSLNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A55BE411D6AD6DA009EC302 /* BSLNetwork.m */; };
-		0A55BE501D6AD6DA009EC302 /* BSLNHWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A55BE431D6AD6DA009EC302 /* BSLNHWebCache.m */; };
-		0A55BE511D6AD6DA009EC302 /* BSLTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A55BE451D6AD6DA009EC302 /* BSLTools.m */; };
-		0A55BE521D6AD6DA009EC302 /* BSLTransfer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A55BE471D6AD6DA009EC302 /* BSLTransfer.m */; };
-		0A55BE531D6AD6DA009EC302 /* BSLUserNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A55BE491D6AD6DA009EC302 /* BSLUserNotification.m */; };
-		0A55BE541D6AD6DA009EC302 /* NSData+isValueImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A55BE4B1D6AD6DA009EC302 /* NSData+isValueImage.m */; };
-		0AEBC4AF1D6BE1A3005E9EBF /* NSFileManager+Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AEBC4AE1D6BE1A3005E9EBF /* NSFileManager+Extra.m */; };
+		0AA27C811D6C3EC100EE7D35 /* BSLBaiduStatistical.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA27C701D6C3EC100EE7D35 /* BSLBaiduStatistical.m */; };
+		0AA27C821D6C3EC100EE7D35 /* BSLCatStatistical.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA27C721D6C3EC100EE7D35 /* BSLCatStatistical.m */; };
+		0AA27C831D6C3EC100EE7D35 /* BSLDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA27C741D6C3EC100EE7D35 /* BSLDatabase.m */; };
+		0AA27C841D6C3EC100EE7D35 /* BSLNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA27C761D6C3EC100EE7D35 /* BSLNetwork.m */; };
+		0AA27C851D6C3EC100EE7D35 /* BSLNHWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA27C781D6C3EC100EE7D35 /* BSLNHWebCache.m */; };
+		0AA27C861D6C3EC100EE7D35 /* BSLTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA27C7A1D6C3EC100EE7D35 /* BSLTools.m */; };
+		0AA27C871D6C3EC100EE7D35 /* BSLTransfer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA27C7C1D6C3EC100EE7D35 /* BSLTransfer.m */; };
+		0AA27C881D6C3EC100EE7D35 /* BSLUserNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA27C7E1D6C3EC100EE7D35 /* BSLUserNotification.m */; };
+		0AA27C891D6C3EC100EE7D35 /* NSData+isValueImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA27C801D6C3EC100EE7D35 /* NSData+isValueImage.m */; };
+		0AA27C951D6C423800EE7D35 /* CDVWKNavigationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA27C941D6C423800EE7D35 /* CDVWKNavigationDelegate.m */; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
-		2F891BB335834720BAB29DAF /* CDVWKWebViewEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 68648931AB9C43959CFF367E /* CDVWKWebViewEngine.m */; };
 		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
 		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
 		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
-		602757EB19C24D0EBF1CEDAF /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF2E3C4FA394FCA983A133D /* WebKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		867354F1CCC044B091C7EAAD /* CDVWKWebViewUIDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B161686EA1B4474B9063045B /* CDVWKWebViewUIDelegate.m */; };
-		D781BBBD6DD90350D35D69E5 /* libPods-BUMP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D7034CE531B15E22C3B417 /* libPods-BUMP.a */; };
+		4A6D24CA65134FCD931452F6 /* CDVWKWebViewEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EF8B7866F8D4ED1871BCD7D /* CDVWKWebViewEngine.m */; };
+		AB878F7EAEA549F3A8E80DEB /* CDVWKWebViewUIDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD88F919280E4822B241CA1F /* CDVWKWebViewUIDelegate.m */; };
+		E45B0B35AAFD49D7AF36AFB8 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79F167B8C6FD4EB1BB8173C3 /* WebKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,34 +48,31 @@
 
 /* Begin PBXFileReference section */
 		0207DA571B56EA530066E2B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = BUMP/Images.xcassets; sourceTree = SOURCE_ROOT; };
-		0A55BE351D6AD306009EC302 /* CDVWKNavigationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVWKNavigationDelegate.h; path = "cordova-plugin-wkwebview-engine/CDVWKNavigationDelegate.h"; sourceTree = "<group>"; };
-		0A55BE361D6AD306009EC302 /* CDVWKNavigationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVWKNavigationDelegate.m; path = "cordova-plugin-wkwebview-engine/CDVWKNavigationDelegate.m"; sourceTree = "<group>"; };
-		0A55BE3A1D6AD6DA009EC302 /* BSLBaiduStatistical.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSLBaiduStatistical.h; sourceTree = "<group>"; };
-		0A55BE3B1D6AD6DA009EC302 /* BSLBaiduStatistical.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSLBaiduStatistical.m; sourceTree = "<group>"; };
-		0A55BE3C1D6AD6DA009EC302 /* BSLCatStatistical.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSLCatStatistical.h; sourceTree = "<group>"; };
-		0A55BE3D1D6AD6DA009EC302 /* BSLCatStatistical.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSLCatStatistical.m; sourceTree = "<group>"; };
-		0A55BE3E1D6AD6DA009EC302 /* BSLDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSLDatabase.h; sourceTree = "<group>"; };
-		0A55BE3F1D6AD6DA009EC302 /* BSLDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSLDatabase.m; sourceTree = "<group>"; };
-		0A55BE401D6AD6DA009EC302 /* BSLNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSLNetwork.h; sourceTree = "<group>"; };
-		0A55BE411D6AD6DA009EC302 /* BSLNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSLNetwork.m; sourceTree = "<group>"; };
-		0A55BE421D6AD6DA009EC302 /* BSLNHWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSLNHWebCache.h; sourceTree = "<group>"; };
-		0A55BE431D6AD6DA009EC302 /* BSLNHWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSLNHWebCache.m; sourceTree = "<group>"; };
-		0A55BE441D6AD6DA009EC302 /* BSLTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSLTools.h; sourceTree = "<group>"; };
-		0A55BE451D6AD6DA009EC302 /* BSLTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSLTools.m; sourceTree = "<group>"; };
-		0A55BE461D6AD6DA009EC302 /* BSLTransfer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSLTransfer.h; sourceTree = "<group>"; };
-		0A55BE471D6AD6DA009EC302 /* BSLTransfer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSLTransfer.m; sourceTree = "<group>"; };
-		0A55BE481D6AD6DA009EC302 /* BSLUserNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSLUserNotification.h; sourceTree = "<group>"; };
-		0A55BE491D6AD6DA009EC302 /* BSLUserNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSLUserNotification.m; sourceTree = "<group>"; };
-		0A55BE4A1D6AD6DA009EC302 /* NSData+isValueImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+isValueImage.h"; sourceTree = "<group>"; };
-		0A55BE4B1D6AD6DA009EC302 /* NSData+isValueImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+isValueImage.m"; sourceTree = "<group>"; };
-		0AEBC4AD1D6BE1A3005E9EBF /* NSFileManager+Extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+Extra.h"; sourceTree = "<group>"; };
-		0AEBC4AE1D6BE1A3005E9EBF /* NSFileManager+Extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+Extra.m"; sourceTree = "<group>"; };
-		0AEBC4B01D6C2C4A005E9EBF /* AppConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppConstants.h; sourceTree = "<group>"; };
+		0AA27C6F1D6C3EC100EE7D35 /* BSLBaiduStatistical.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSLBaiduStatistical.h; sourceTree = "<group>"; };
+		0AA27C701D6C3EC100EE7D35 /* BSLBaiduStatistical.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSLBaiduStatistical.m; sourceTree = "<group>"; };
+		0AA27C711D6C3EC100EE7D35 /* BSLCatStatistical.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSLCatStatistical.h; sourceTree = "<group>"; };
+		0AA27C721D6C3EC100EE7D35 /* BSLCatStatistical.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSLCatStatistical.m; sourceTree = "<group>"; };
+		0AA27C731D6C3EC100EE7D35 /* BSLDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSLDatabase.h; sourceTree = "<group>"; };
+		0AA27C741D6C3EC100EE7D35 /* BSLDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSLDatabase.m; sourceTree = "<group>"; };
+		0AA27C751D6C3EC100EE7D35 /* BSLNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSLNetwork.h; sourceTree = "<group>"; };
+		0AA27C761D6C3EC100EE7D35 /* BSLNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSLNetwork.m; sourceTree = "<group>"; };
+		0AA27C771D6C3EC100EE7D35 /* BSLNHWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSLNHWebCache.h; sourceTree = "<group>"; };
+		0AA27C781D6C3EC100EE7D35 /* BSLNHWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSLNHWebCache.m; sourceTree = "<group>"; };
+		0AA27C791D6C3EC100EE7D35 /* BSLTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSLTools.h; sourceTree = "<group>"; };
+		0AA27C7A1D6C3EC100EE7D35 /* BSLTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSLTools.m; sourceTree = "<group>"; };
+		0AA27C7B1D6C3EC100EE7D35 /* BSLTransfer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSLTransfer.h; sourceTree = "<group>"; };
+		0AA27C7C1D6C3EC100EE7D35 /* BSLTransfer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSLTransfer.m; sourceTree = "<group>"; };
+		0AA27C7D1D6C3EC100EE7D35 /* BSLUserNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSLUserNotification.h; sourceTree = "<group>"; };
+		0AA27C7E1D6C3EC100EE7D35 /* BSLUserNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSLUserNotification.m; sourceTree = "<group>"; };
+		0AA27C7F1D6C3EC100EE7D35 /* NSData+isValueImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+isValueImage.h"; sourceTree = "<group>"; };
+		0AA27C801D6C3EC100EE7D35 /* NSData+isValueImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+isValueImage.m"; sourceTree = "<group>"; };
+		0AA27C921D6C406E00EE7D35 /* AppConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppConstants.h; sourceTree = "<group>"; };
+		0AA27C931D6C423800EE7D35 /* CDVWKNavigationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVWKNavigationDelegate.h; path = "cordova-plugin-wkwebview-engine/CDVWKNavigationDelegate.h"; sourceTree = "<group>"; };
+		0AA27C941D6C423800EE7D35 /* CDVWKNavigationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVWKNavigationDelegate.m; path = "cordova-plugin-wkwebview-engine/CDVWKNavigationDelegate.m"; sourceTree = "<group>"; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* BUMP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BUMP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2EF2E3C4FA394FCA983A133D /* WebKit.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
 		301BF56E109A69640062928A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
 		302D95EE14D2391D003F00A1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
@@ -86,12 +82,13 @@
 		3047A5101AB8059700498E2A /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-release.xcconfig"; path = "cordova/build-release.xcconfig"; sourceTree = SOURCE_ROOT; };
 		3047A5111AB8059700498E2A /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = build.xcconfig; path = cordova/build.xcconfig; sourceTree = SOURCE_ROOT; };
 		32CA4F630368D1EE00C91783 /* BUMP-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BUMP-Prefix.pch"; sourceTree = "<group>"; };
-		68648931AB9C43959CFF367E /* CDVWKWebViewEngine.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVWKWebViewEngine.m; path = "cordova-plugin-wkwebview-engine/CDVWKWebViewEngine.m"; sourceTree = "<group>"; };
+		79F167B8C6FD4EB1BB8173C3 /* WebKit.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		7DCBFA18591C44E0BBF19BF2 /* CDVWKWebViewEngine.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVWKWebViewEngine.h; path = "cordova-plugin-wkwebview-engine/CDVWKWebViewEngine.h"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* BUMP-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "BUMP-Info.plist"; path = "BUMP/BUMP-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = SOURCE_ROOT; };
-		A09100CCEF2E49A5AAD7AFC7 /* CDVWKWebViewEngine.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVWKWebViewEngine.h; path = "cordova-plugin-wkwebview-engine/CDVWKWebViewEngine.h"; sourceTree = "<group>"; };
-		B161686EA1B4474B9063045B /* CDVWKWebViewUIDelegate.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVWKWebViewUIDelegate.m; path = "cordova-plugin-wkwebview-engine/CDVWKWebViewUIDelegate.m"; sourceTree = "<group>"; };
-		B3D7034CE531B15E22C3B417 /* libPods-BUMP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BUMP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C798A073DA244A2FBF6D4FB5 /* CDVWKWebViewUIDelegate.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVWKWebViewUIDelegate.h; path = "cordova-plugin-wkwebview-engine/CDVWKWebViewUIDelegate.h"; sourceTree = "<group>"; };
+		8EF8B7866F8D4ED1871BCD7D /* CDVWKWebViewEngine.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVWKWebViewEngine.m; path = "cordova-plugin-wkwebview-engine/CDVWKWebViewEngine.m"; sourceTree = "<group>"; };
+		C87B463A7386458F9A79A6A9 /* CDVWKWebViewUIDelegate.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVWKWebViewUIDelegate.h; path = "cordova-plugin-wkwebview-engine/CDVWKWebViewUIDelegate.h"; sourceTree = "<group>"; };
+		CD88F919280E4822B241CA1F /* CDVWKWebViewUIDelegate.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVWKWebViewUIDelegate.m; path = "cordova-plugin-wkwebview-engine/CDVWKWebViewUIDelegate.m"; sourceTree = "<group>"; };
+		E829709DF9ACABB186F55E51 /* libPods-BUMP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BUMP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
@@ -104,8 +101,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
-				602757EB19C24D0EBF1CEDAF /* WebKit.framework in Frameworks */,
-				D781BBBD6DD90350D35D69E5 /* libPods-BUMP.a in Frameworks */,
+				E45B0B35AAFD49D7AF36AFB8 /* WebKit.framework in Frameworks */,
+				01B518EDCB3FFEDEC9FFCBC7 /* libPods-BUMP.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,40 +112,38 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				0AEBC4B01D6C2C4A005E9EBF /* AppConstants.h */,
+				0AA27C921D6C406E00EE7D35 /* AppConstants.h */,
 				302D95EE14D2391D003F00A1 /* MainViewController.h */,
 				302D95EF14D2391D003F00A1 /* MainViewController.m */,
 				302D95F014D2391D003F00A1 /* MainViewController.xib */,
 				1D3623240D0F684500981E51 /* AppDelegate.h */,
 				1D3623250D0F684500981E51 /* AppDelegate.m */,
-				0AEBC4AD1D6BE1A3005E9EBF /* NSFileManager+Extra.h */,
-				0AEBC4AE1D6BE1A3005E9EBF /* NSFileManager+Extra.m */,
 			);
 			name = Classes;
 			path = BUMP/Classes;
 			sourceTree = SOURCE_ROOT;
 		};
-		0A55BE391D6AD6DA009EC302 /* cordova-plugin-BSLInfintus */ = {
+		0AA27C6E1D6C3EC100EE7D35 /* cordova-plugin-BSLInfintus */ = {
 			isa = PBXGroup;
 			children = (
-				0A55BE3A1D6AD6DA009EC302 /* BSLBaiduStatistical.h */,
-				0A55BE3B1D6AD6DA009EC302 /* BSLBaiduStatistical.m */,
-				0A55BE3C1D6AD6DA009EC302 /* BSLCatStatistical.h */,
-				0A55BE3D1D6AD6DA009EC302 /* BSLCatStatistical.m */,
-				0A55BE3E1D6AD6DA009EC302 /* BSLDatabase.h */,
-				0A55BE3F1D6AD6DA009EC302 /* BSLDatabase.m */,
-				0A55BE401D6AD6DA009EC302 /* BSLNetwork.h */,
-				0A55BE411D6AD6DA009EC302 /* BSLNetwork.m */,
-				0A55BE421D6AD6DA009EC302 /* BSLNHWebCache.h */,
-				0A55BE431D6AD6DA009EC302 /* BSLNHWebCache.m */,
-				0A55BE441D6AD6DA009EC302 /* BSLTools.h */,
-				0A55BE451D6AD6DA009EC302 /* BSLTools.m */,
-				0A55BE461D6AD6DA009EC302 /* BSLTransfer.h */,
-				0A55BE471D6AD6DA009EC302 /* BSLTransfer.m */,
-				0A55BE481D6AD6DA009EC302 /* BSLUserNotification.h */,
-				0A55BE491D6AD6DA009EC302 /* BSLUserNotification.m */,
-				0A55BE4A1D6AD6DA009EC302 /* NSData+isValueImage.h */,
-				0A55BE4B1D6AD6DA009EC302 /* NSData+isValueImage.m */,
+				0AA27C6F1D6C3EC100EE7D35 /* BSLBaiduStatistical.h */,
+				0AA27C701D6C3EC100EE7D35 /* BSLBaiduStatistical.m */,
+				0AA27C711D6C3EC100EE7D35 /* BSLCatStatistical.h */,
+				0AA27C721D6C3EC100EE7D35 /* BSLCatStatistical.m */,
+				0AA27C731D6C3EC100EE7D35 /* BSLDatabase.h */,
+				0AA27C741D6C3EC100EE7D35 /* BSLDatabase.m */,
+				0AA27C751D6C3EC100EE7D35 /* BSLNetwork.h */,
+				0AA27C761D6C3EC100EE7D35 /* BSLNetwork.m */,
+				0AA27C771D6C3EC100EE7D35 /* BSLNHWebCache.h */,
+				0AA27C781D6C3EC100EE7D35 /* BSLNHWebCache.m */,
+				0AA27C791D6C3EC100EE7D35 /* BSLTools.h */,
+				0AA27C7A1D6C3EC100EE7D35 /* BSLTools.m */,
+				0AA27C7B1D6C3EC100EE7D35 /* BSLTransfer.h */,
+				0AA27C7C1D6C3EC100EE7D35 /* BSLTransfer.m */,
+				0AA27C7D1D6C3EC100EE7D35 /* BSLUserNotification.h */,
+				0AA27C7E1D6C3EC100EE7D35 /* BSLUserNotification.m */,
+				0AA27C7F1D6C3EC100EE7D35 /* NSData+isValueImage.h */,
+				0AA27C801D6C3EC100EE7D35 /* NSData+isValueImage.m */,
 			);
 			path = "cordova-plugin-BSLInfintus";
 			sourceTree = "<group>";
@@ -174,7 +169,7 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				4966690A6E28E2B3E337F475 /* Pods */,
+				B8598A8B4EF97CEEC9798575 /* Pods */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -204,8 +199,8 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2EF2E3C4FA394FCA983A133D /* WebKit.framework */,
-				B3D7034CE531B15E22C3B417 /* libPods-BUMP.a */,
+				79F167B8C6FD4EB1BB8173C3 /* WebKit.framework */,
+				E829709DF9ACABB186F55E51 /* libPods-BUMP.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -231,19 +226,19 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				0A55BE391D6AD6DA009EC302 /* cordova-plugin-BSLInfintus */,
-				A09100CCEF2E49A5AAD7AFC7 /* CDVWKWebViewEngine.h */,
-				68648931AB9C43959CFF367E /* CDVWKWebViewEngine.m */,
-				C798A073DA244A2FBF6D4FB5 /* CDVWKWebViewUIDelegate.h */,
-				B161686EA1B4474B9063045B /* CDVWKWebViewUIDelegate.m */,
-				0A55BE351D6AD306009EC302 /* CDVWKNavigationDelegate.h */,
-				0A55BE361D6AD306009EC302 /* CDVWKNavigationDelegate.m */,
+				0AA27C6E1D6C3EC100EE7D35 /* cordova-plugin-BSLInfintus */,
+				7DCBFA18591C44E0BBF19BF2 /* CDVWKWebViewEngine.h */,
+				8EF8B7866F8D4ED1871BCD7D /* CDVWKWebViewEngine.m */,
+				C87B463A7386458F9A79A6A9 /* CDVWKWebViewUIDelegate.h */,
+				CD88F919280E4822B241CA1F /* CDVWKWebViewUIDelegate.m */,
+				0AA27C931D6C423800EE7D35 /* CDVWKNavigationDelegate.h */,
+				0AA27C941D6C423800EE7D35 /* CDVWKNavigationDelegate.m */,
 			);
 			name = Plugins;
 			path = BUMP/Plugins;
 			sourceTree = SOURCE_ROOT;
 		};
-		4966690A6E28E2B3E337F475 /* Pods */ = {
+		B8598A8B4EF97CEEC9798575 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -266,13 +261,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "BUMP" */;
 			buildPhases = (
-				9A31486A244052ACCBB125B0 /* Check Pods Manifest.lock */,
+				08BDB21664A0A50A5E556948 /* Check Pods Manifest.lock */,
 				304B58A110DAC018002A0835 /* Copy www directory */,
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
 				1D60588F0D05DD3D006BFB54 /* Frameworks */,
-				17957629F9DA95D9FCAD083F /* Embed Pods Frameworks */,
-				E329EE6AE7E49A24007706FF /* Copy Pods Resources */,
+				9FF227F15274571E56EF07FA /* Embed Pods Frameworks */,
+				2B35F3F1C87F152D4D96E600 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -337,19 +332,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		17957629F9DA95D9FCAD083F /* Embed Pods Frameworks */ = {
+		08BDB21664A0A50A5E556948 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BUMP/Pods-BUMP-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2B35F3F1C87F152D4D96E600 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BUMP/Pods-BUMP-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		304B58A110DAC018002A0835 /* Copy www directory */ = {
@@ -367,34 +377,19 @@
 			shellScript = "NODEJS_PATH=/usr/local/bin; NVM_NODE_PATH=~/.nvm/versions/node/`nvm version 2>/dev/null`/bin; N_NODE_PATH=`find /usr/local/n/versions/node/* -maxdepth 0 -type d 2>/dev/null | tail -1`/bin; XCODE_NODE_PATH=`xcode-select --print-path`/usr/share/xcs/Node/bin; PATH=$NODEJS_PATH:$NVM_NODE_PATH:$N_NODE_PATH:$XCODE_NODE_PATH:$PATH && node cordova/lib/copy-www-build-step.js";
 			showEnvVarsInLog = 0;
 		};
-		9A31486A244052ACCBB125B0 /* Check Pods Manifest.lock */ = {
+		9FF227F15274571E56EF07FA /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		E329EE6AE7E49A24007706FF /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BUMP/Pods-BUMP-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BUMP/Pods-BUMP-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -404,22 +399,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AA27C891D6C3EC100EE7D35 /* NSData+isValueImage.m in Sources */,
+				0AA27C951D6C423800EE7D35 /* CDVWKNavigationDelegate.m in Sources */,
+				0AA27C861D6C3EC100EE7D35 /* BSLTools.m in Sources */,
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
-				0A55BE521D6AD6DA009EC302 /* BSLTransfer.m in Sources */,
-				0A55BE501D6AD6DA009EC302 /* BSLNHWebCache.m in Sources */,
+				0AA27C881D6C3EC100EE7D35 /* BSLUserNotification.m in Sources */,
+				0AA27C871D6C3EC100EE7D35 /* BSLTransfer.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
-				0A55BE511D6AD6DA009EC302 /* BSLTools.m in Sources */,
-				0A55BE531D6AD6DA009EC302 /* BSLUserNotification.m in Sources */,
-				0A55BE4E1D6AD6DA009EC302 /* BSLDatabase.m in Sources */,
+				0AA27C821D6C3EC100EE7D35 /* BSLCatStatistical.m in Sources */,
+				0AA27C851D6C3EC100EE7D35 /* BSLNHWebCache.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				0A55BE541D6AD6DA009EC302 /* NSData+isValueImage.m in Sources */,
-				2F891BB335834720BAB29DAF /* CDVWKWebViewEngine.m in Sources */,
-				0A55BE4D1D6AD6DA009EC302 /* BSLCatStatistical.m in Sources */,
-				0AEBC4AF1D6BE1A3005E9EBF /* NSFileManager+Extra.m in Sources */,
-				0A55BE4F1D6AD6DA009EC302 /* BSLNetwork.m in Sources */,
-				0A55BE371D6AD306009EC302 /* CDVWKNavigationDelegate.m in Sources */,
-				867354F1CCC044B091C7EAAD /* CDVWKWebViewUIDelegate.m in Sources */,
-				0A55BE4C1D6AD6DA009EC302 /* BSLBaiduStatistical.m in Sources */,
+				0AA27C841D6C3EC100EE7D35 /* BSLNetwork.m in Sources */,
+				4A6D24CA65134FCD931452F6 /* CDVWKWebViewEngine.m in Sources */,
+				AB878F7EAEA549F3A8E80DEB /* CDVWKWebViewUIDelegate.m in Sources */,
+				0AA27C831D6C3EC100EE7D35 /* BSLDatabase.m in Sources */,
+				0AA27C811D6C3EC100EE7D35 /* BSLBaiduStatistical.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,7 +445,6 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "BUMP/BUMP-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				PODS_ROOT = "${SRCROOT}/Pods";
 				PRODUCT_NAME = BUMP;
@@ -473,7 +466,6 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_VERSION = "";
 				INFOPLIST_FILE = "BUMP/BUMP-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PODS_ROOT = "${SRCROOT}/Pods";
 				PRODUCT_NAME = BUMP;
 			};
@@ -499,7 +491,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
@@ -526,7 +517,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 			};

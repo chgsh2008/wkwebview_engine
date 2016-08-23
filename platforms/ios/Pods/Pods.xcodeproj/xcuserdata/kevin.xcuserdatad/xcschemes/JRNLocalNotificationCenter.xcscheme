@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '4C95142697D7645365F5E9F7'
+               BlueprintIdentifier = 'ED2988276D317425E2B94ACC'
                BlueprintName = 'JRNLocalNotificationCenter'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libJRNLocalNotificationCenter.a'>
