@@ -11,7 +11,7 @@
 //#import <iConsole/iConsole.h>
 #import "SVProgressHUD.h"
 //#import "CTImageSeeViewController.h"
-//#import "AppConstants.h"
+#import "AppConstants.h"
 //#import "UpdateAlertView.h"
 //#import "HomePageViewController.h"
 //#import "LogoutBiz.h"
@@ -556,19 +556,36 @@
 }
 - (void)getHost:(CDVInvokedUrlCommand *)command
 {
-//    NSDictionary *host = @{@"gbss":URL_ROOT_GBSS,
-//                           @"uim":URL_UIM,
-//                           @"emcs":URL_ROOT_EMCS,
-//                           @"root":URL_ROOT,
-//                           @"cdn":URL_ROOT_EMCS_CDN,
-//                           @"gmcsnew":URL_ROOT_GMCS,
-//                           @"gmcs":GMCS
-//                           };
-//
-//
-//    [self.commandDelegate sendPluginResult:[CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsString:[host JSONString]] callbackId:command.callbackId];
-//    return [host JSONString];
+    NSDictionary *host = @{@"gbss":URL_ROOT_GBSS,
+                           @"uim":URL_UIM,
+                           @"emcs":URL_ROOT_EMCS,
+                           @"root":URL_ROOT,
+                           @"cdn":URL_ROOT_EMCS_CDN,
+                           @"gmcsnew":URL_ROOT_GMCS,
+                           @"gmcs":GMCS
+                           };
+    
+    
+    NSString *json = [self DataTOjsonString:host];
+
+    [self.commandDelegate sendPluginResult:[CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsString:json] callbackId:command.callbackId];
 }
+
+-(NSString*)DataTOjsonString:(id)object
+{
+    NSString *jsonString = nil;
+    NSError *error;
+    NSData *jsonData = [NSJSONSerialization dataWithJSONObject:object
+                                                       options:NSJSONWritingPrettyPrinted // Pass 0 if you don't care about the readability of the generated string
+                                                         error:&error];
+    if (! jsonData) {
+        NSLog(@"Got an error: %@", error);
+    } else {
+        jsonString = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
+    }
+    return jsonString;
+}
+
 - (void)addRightBtn:(CDVInvokedUrlCommand *)command{
     __weak __typeof(self) mySelf = self;
 //    [(Old_CubeWebViewController *)self.viewController addRightBtn:[command argumentAtIndex:0] withBlock:^{

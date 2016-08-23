@@ -26,6 +26,7 @@
 //
 
 #import "MainViewController.h"
+#import "NSFileManager+Extra.h"
 
 @implementation MainViewController
 
@@ -45,9 +46,22 @@
 {
     self = [super init];
     if (self) {
-        NSURL *www = [self wwwBundleDirectory];
+        NSError *error = nil;
+        BOOL success = NO;
+        NSFileManager *fm = [NSFileManager defaultManager];
+        //create directory
+        success = [fm createDirectoryAtURL:[self wwwRuntimeDirectory] withIntermediateDirectories:YES attributes:nil error:&error];
+        NSLog(@"document path: %@",[self wwwRuntimeDirectory]);
+        //copy
+        success = [fm copyFolderAtURL:[self wwwBundleDirectory] toURL:[NSFileManager wwwRuntimeDirectory] error:&error];
+        if (!success) NSLog(@"复制www目录失败,%@", error);
+        
+        
+        NSURL *www = [self wwwRuntimeDirectory];
         NSURL *demoIndex = [www URLByAppendingPathComponent:@"com.infinitus.bslH5.demo/index.html"];
-        self.startPage = @"com.infinitus.bslH5.demo/index.html#com.infinitus.bslH5.demo/";//[demoIndex path];
+//        NSURL *demoIndex = [www URLByAppendingPathComponent:@"com.infinitus.eln/index.html"];
+        self.startPage = [demoIndex absoluteString];
+//        self.startPage = @"com.infinitus.bslH5.demo/index.html#com.infinitus.bslH5.demo/";
 //        self.startPage = @"Demo/index.html";
         // Uncomment to override the CDVCommandDelegateImpl used
         // _commandDelegate = [[MainCommandDelegate alloc] initWithViewController:self];
@@ -55,6 +69,25 @@
         // _commandQueue = [[MainCommandQueue alloc] initWithViewController:self];
     }
     return self;
+}
+
+//应用运行时的www目录
+- (NSURL *)wwwRuntimeDirectory
+{
+    return [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"www" isDirectory:YES];
+}
+
+//应用文档根目录
+- (NSURL *)applicationDocumentsDirectory
+{
+    //    NSURL *url =[[[NSFileManager defaultManager] URLsForDirectory:NSCachesDirectory inDomains:NSUserDomainMask] lastObject];
+    // add by arvin.chou DOCUMENT目录
+    //    return [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
+    // add by arvin.chou 将根目录指向LIBRARY/CACHE目录
+    //    return [[[NSFileManager defaultManager] URLsForDirectory:NSCachesDirectory inDomains:NSUserDomainMask] lastObject];
+    
+    return [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
+    
 }
 
 //应用安装包里的www目录

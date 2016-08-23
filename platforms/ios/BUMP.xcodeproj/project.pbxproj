@@ -18,6 +18,7 @@
 		0A55BE521D6AD6DA009EC302 /* BSLTransfer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A55BE471D6AD6DA009EC302 /* BSLTransfer.m */; };
 		0A55BE531D6AD6DA009EC302 /* BSLUserNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A55BE491D6AD6DA009EC302 /* BSLUserNotification.m */; };
 		0A55BE541D6AD6DA009EC302 /* NSData+isValueImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A55BE4B1D6AD6DA009EC302 /* NSData+isValueImage.m */; };
+		0AEBC4AF1D6BE1A3005E9EBF /* NSFileManager+Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AEBC4AE1D6BE1A3005E9EBF /* NSFileManager+Extra.m */; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		2F891BB335834720BAB29DAF /* CDVWKWebViewEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 68648931AB9C43959CFF367E /* CDVWKWebViewEngine.m */; };
@@ -68,6 +69,9 @@
 		0A55BE491D6AD6DA009EC302 /* BSLUserNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSLUserNotification.m; sourceTree = "<group>"; };
 		0A55BE4A1D6AD6DA009EC302 /* NSData+isValueImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+isValueImage.h"; sourceTree = "<group>"; };
 		0A55BE4B1D6AD6DA009EC302 /* NSData+isValueImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+isValueImage.m"; sourceTree = "<group>"; };
+		0AEBC4AD1D6BE1A3005E9EBF /* NSFileManager+Extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+Extra.h"; sourceTree = "<group>"; };
+		0AEBC4AE1D6BE1A3005E9EBF /* NSFileManager+Extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+Extra.m"; sourceTree = "<group>"; };
+		0AEBC4B01D6C2C4A005E9EBF /* AppConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppConstants.h; sourceTree = "<group>"; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* BUMP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BUMP.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,11 +115,14 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				0AEBC4B01D6C2C4A005E9EBF /* AppConstants.h */,
 				302D95EE14D2391D003F00A1 /* MainViewController.h */,
 				302D95EF14D2391D003F00A1 /* MainViewController.m */,
 				302D95F014D2391D003F00A1 /* MainViewController.xib */,
 				1D3623240D0F684500981E51 /* AppDelegate.h */,
 				1D3623250D0F684500981E51 /* AppDelegate.m */,
+				0AEBC4AD1D6BE1A3005E9EBF /* NSFileManager+Extra.h */,
+				0AEBC4AE1D6BE1A3005E9EBF /* NSFileManager+Extra.m */,
 			);
 			name = Classes;
 			path = BUMP/Classes;
@@ -408,6 +415,7 @@
 				0A55BE541D6AD6DA009EC302 /* NSData+isValueImage.m in Sources */,
 				2F891BB335834720BAB29DAF /* CDVWKWebViewEngine.m in Sources */,
 				0A55BE4D1D6AD6DA009EC302 /* BSLCatStatistical.m in Sources */,
+				0AEBC4AF1D6BE1A3005E9EBF /* NSFileManager+Extra.m in Sources */,
 				0A55BE4F1D6AD6DA009EC302 /* BSLNetwork.m in Sources */,
 				0A55BE371D6AD306009EC302 /* CDVWKNavigationDelegate.m in Sources */,
 				867354F1CCC044B091C7EAAD /* CDVWKWebViewUIDelegate.m in Sources */,
