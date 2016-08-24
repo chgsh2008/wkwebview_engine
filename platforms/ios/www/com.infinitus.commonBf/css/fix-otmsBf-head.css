@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'ui3';
+    src: url('../font/e-webfont.eot');
+    src: url('../font/e-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../font/e-webfont.woff') format('woff'),
+    url('../font/e-webfont.ttf') format('truetype'),
+    url('../font/e-webfont.svg#allerregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    font-family: YouYuan;
+}
+/*回执填写*/
+.navbar {
+    border-bottom:none;
+}
+.navbar:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: auto;
+    top: auto;
+    height: 1px;
+    width: 100%;
+    background-color: #dbdbdb;
+    display: block;
+    z-index: 15;
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    -webkit-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+}
+.navbar-inner {
+    color:#333!important;
+    font-size:17px;
+}
+.headBack {
+    color:#666!important;
+    font-size:16px;
+    padding:0 10px;
+}
+.headBack:before {
+    content: "\F02B";
+    margin-right: 5px;
+    font-size: 14px;
+    font-family: ui3!important;
+    line-height: normal;
+}
+.navbar-inner div:nth-child(3) {
+    color:#bc2826!important;
+    padding:0 10px;
+    line-height:44px;
+}
+
+
+/*选择线路、出团历史、报到详情、审批结果*/
+[class*="header"] {
+    height:44px!important;
+    line-height:44px!important;
+    border-bottom:none!important;
+    color:#333!important;
+    font-family:inherit;
+    text-align:center;
+    font-size:17px!important;
+}
+[class*="header"]:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: auto;
+    top: auto;
+    height: 1px;
+    width: 100%;
+    background-color: #dbdbdb;
+    display: block;
+    z-index: 15;
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    -webkit-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+}
+span.back, span.goback {
+    position:absolute;
+    color:#666!important;
+    font-size:16px;
+    left:10px!important;
+    padding-right:10px;
+}
+span.back:before, span.goback:before {
+    content: "\F02B";
+    margin-right: 5px;
+    font-size: 14px;
+    font-family: ui3!important;
+    line-height: normal;
+}
+span.save {
+    color:#bc2826;
+    right:10px;
+    padding-left:10px;
+    font-size:16px!important;
+}
+.Rmask {
+    background: rgba(0,0,0,0.5);
+}
+.Rdialog {
+    background: #f8f8f8;
+    font-family:inherit;
+    left:50%;
+    top:50%;
+    -webkit-transform: translate(-50%, -50%);;
+    transform: translate(-50%, -50%);
+    margin:0!important;
+}
+.RdialogTop {
+    background:none;
+    color:#333;
+    border-bottom: 1px solid #dadada;
+    font-family:inherit;
+    font-size:17px;
+}
+.RdialogBottom {
+    border-bottom:1px solid #dadada;
+    font-family: inherit;
+    box-sizing:border-box;
+    padding:36px 20px;
+    width:100%;
+    font-size:16px;
+}
+.RdialogFoot {
+    height:40px;
+    display:-webkit-box;
+    display:flex;
+    border-top:1px solid #fff;
+}
+.Rdialog .RdialogBtn {
+    -webkit-box-flex:1;
+    flex:1;
+    background:none;
+    height:40px;
+    color: #bc2826;
+    border-top:1px solid #fff;
+    border-right:1px solid #dadada;
+    line-height:40px;
+    margin:0;
+    font-size:16px;
+    text-align:center;
+    font-family:inherit;
+}
+.Rdialog .RdialogBtn:last-child {
+    border-right:none;
+}
+
+

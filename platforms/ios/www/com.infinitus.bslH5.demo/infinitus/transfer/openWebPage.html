@@ -1,0 +1,58 @@
+<header class="bar bar-nav">
+    <div class="button button-link button-nav pull-left goBack">
+        <span class="icon icon-left"></span> <!-- 返回 -->
+    </div>
+    <h1 class='title'>openWebPage</h1>
+</header>
+<div class="content" id='page-index'>
+    <div class="content-inner">
+        <div class="content-block-title">bsl.infinitus.transfer.openWebPage()</div>
+        <div class="content-block">
+            <p><a id="try" class="button button-big button-fill">Try</a></p>
+        </div>
+        <div class="content-block configWrap">
+            <dl>
+                <dt>url</dt>
+                <dd class="input-row">
+                    <input type="text" value="com.infinitus.bslH5.demo/infinitus/transfer/forOpenWebPage.html" placeholder="com.infinitus.bslH5.demo/infinitus/transfer/forOpenWebPage.html">
+                </dd>
+                <dd class="expec">string 类型，HTML页面在线或本地地址</dd>
+                <dt>sInitFun</dt>
+                <dd class="input-row">
+                    <input type="text" value="forCall" placeholder="forCall">
+                </dd>
+                <dd class="expec">string 类型，打开新页面调用页面的JS 参数可选</dd>
+                <dt>oInitParam</dt>
+                <dd class="input-row" data-valuetype="json" >
+                    <input type="text" value="{'msg':'haa'}" placeholder="{'msg':'haa'}">
+                </dd>
+                <dd class="expec">object 类型，调用函数传的参数 参数可选</dd>
+                <dt>sTitle</dt>
+                <dd class="input-row">
+                    <input type="text" placeholder="Title" value="Title">
+                </dd>
+                <dd class="expec">string 类型，页面的标题</dd>
+                <dt>sFlag</dt>
+                <dd class="buttons-row" data-valuetype="boolean">
+                    <a class="button">true</a>
+                    <a class="button active">false</a>
+                </dd>
+                <dd class="expec">Boolean 类型 打开新页面时是否删除中间webview true删除 false不删</dd>
+                <dt>jNavInfo</dt>
+                <dd class="input-row" data-valuetype="json">
+                    <textarea rows="6"  placeholder="{'rotation':0,'navigationBar':1,'returnView':1,'gotoneturl':true}">{'rotation':0,'navigationBar':1,'returnView':1,'gotoneturl':true}</textarea>
+                </dd>
+                <dd class="expec">Json类型，原生用到的参数
+<pre>
+    {
+        'rotation':1,
+        'navigationBar':1,
+        'returnView':1,
+        'gotoneturl':true
+    }
+</pre>
+                    跟菜单参数设置一致菜单参数设置</dd>
+            </dl>
+        </div>
+    </div>
+</div>

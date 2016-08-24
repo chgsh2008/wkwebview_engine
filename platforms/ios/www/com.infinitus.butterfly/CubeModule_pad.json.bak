@@ -1,0 +1,12 @@
+{
+    "identifier": "com.infinitus.butterfly.hd",
+    "name": "Butterfly-Pad",
+
+    "build": 28,
+    "version": "1.0.0.28",
+    
+    "releaseNote": "",
+
+    "dependencies": {
+    }
+}

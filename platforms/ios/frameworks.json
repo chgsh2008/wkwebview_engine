@@ -1,5 +1,7 @@
 {
     "WebKit.framework": 2,
     "SystemConfiguration.framework": 1,
-    "CoreTelephony.framework": 1
+    "CoreTelephony.framework": 1,
+    "CFNetwork.framework": 1,
+    "libz.dylib": 1
 }

@@ -1,0 +1,11 @@
+{
+    "identifier": "com.infinitus.commonBf.hd",
+    "name": "commonBf-Pad",
+
+    "build": 58,
+    "version": "1.0.0.58",
+    
+    "releaseNote": "",
+    "dependencies": {
+    }
+}

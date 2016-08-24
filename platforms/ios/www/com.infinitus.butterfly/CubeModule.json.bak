@@ -1,0 +1,11 @@
+{
+    "identifier": "com.infinitus.butterfly",
+    "name": "Butterfly",
+
+    "build": 29,
+    "version": "1.0.0.29",
+    "releaseNote": "",
+
+    "dependencies": {
+    }
+}

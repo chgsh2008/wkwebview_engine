@@ -18,7 +18,20 @@
         },
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.infinitus.bump"
+        },
+        "cordova-labs-wkwebview-engine-localhost": {
+            "PACKAGE_NAME": "com.infinitus.bump"
         }
     },
-    "dependent_plugins": {}
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.infinitus.bump"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.infinitus.bump"
+        },
+        "cordova-labs-local-webserver": {
+            "PACKAGE_NAME": "com.infinitus.bump"
+        }
+    }
 }

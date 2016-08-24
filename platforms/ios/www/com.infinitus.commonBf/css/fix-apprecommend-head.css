@@ -1,0 +1,131 @@
+/**
+ * 强制修改事业助手头部样式的css
+ */
+
+/* 健康产品、精英人物、创业小算盘 */
+@font-face {
+    font-family: 'ui3';
+    src: url('../font/e-webfont.eot');
+    src: url('../font/e-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/e-webfont.woff') format('woff'),
+         url('../font/e-webfont.ttf') format('truetype'),
+         url('../font/e-webfont.svg#allerregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.title {
+    font-weight: normal!important;
+    color: #333!important;
+    margin: 0!important;
+    font-size: 17px!important;
+}
+.bar {
+    border-bottom: none;
+}
+.bar .icon {
+    padding: 0;
+    line-height: 44px;
+}
+.icon-left-nav {
+    margin-left: 10px!important;
+    top: 0!important;
+    color: #666!important;
+    font-size: 16px!important;
+}
+.icon-left-nav:before {
+    content: "\F02B";
+    margin-right: 5px;
+    font-size: 14px;
+    font-family: ui3!important;
+    line-height: normal;
+}
+.bar-nav {
+    padding-left: 0!important;
+    margin: 0!important;
+}
+.bar-nav:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: auto;
+    top: auto;
+    height: 1px;
+    width: 100%;
+    background-color: #dbdbdb;
+    display: block;
+    z-index: 15;
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    -webkit-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+}
+.bar .btn-nav.pull-left {
+    margin-left: 0!important;
+}
+
+/* 我的故事、走进无限极 */
+#header {
+    height: 44px!important;
+    border-bottom: none!important;
+}
+#header:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: auto;
+    top: auto;
+    height: 1px;
+    width: 100%;
+    background-color: #dbdbdb;
+    display: block;
+    z-index: 15;
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    -webkit-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+}
+#header .center {
+    font-weight: normal!important;
+    font-size: 17px!important;
+    color: #333!important;
+}
+#header a.aback,
+#header a.aprev {
+    font-size: 16px!important;
+    background: none!important;
+    color: #666!important;
+    padding-left: 10px!important;
+}
+#header a.aback:before,
+#header a.aprev:before {
+    content: "\F02B";
+    margin-right: 5px;
+    font-size: 14px;
+    font-family: ui3!important;
+    line-height: normal;
+}
+
+#header .center #detail-menu {
+    height: 44px!important;
+    line-height: 44px!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+{
+    "identifier": "com.infinitus.bslH5.demo.hd",
+    "name": "bslH5Demo-Pad",
+ 
+    "build": 3,
+    "version": "1.0.0.3",
+    "framework":"cordova", 
+    "releaseNote": "",
+
+    "dependencies": {
+        "com.infinitus.commonBf": 1,
+        "com.infinitus.butterfly": 1
+    }
+}

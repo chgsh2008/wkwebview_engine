@@ -1,0 +1,12 @@
+<script type="text/template" id="dialog-tmpl">
+	<div class="dialog-container">
+		<p><%= options.text %></p>
+		<ul>
+			<% if (options.type === 'confirm') { %>
+				<li class="dialog-button"><button class="positive" id="confirm"><span class="icon icon-check"></span><span class="button-text">确定</span></button></li><li class="dialog-button"><button class="negative" id="cancel"><span class="icon icon-close"></span><span class="button-text">取消</span></button></li>
+			<% } else { %>
+				<li class="dialog-button" style="width: 100%"><button id="confirm"><span class="button-text">确定</span></button></li>
+			<% } %>
+		</ul>
+	</div>
+</script>

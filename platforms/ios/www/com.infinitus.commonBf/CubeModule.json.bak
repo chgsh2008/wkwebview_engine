@@ -1,0 +1,10 @@
+{
+    "identifier": "com.infinitus.commonBf",
+    "name": "commonBf",
+
+    "build": 61,
+    "version": "1.0.0.61",
+    "releaseNote": "",
+    "dependencies": {
+    }
+}

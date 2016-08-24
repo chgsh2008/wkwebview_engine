@@ -1,0 +1,52 @@
+.bar-nav .goBack {
+    min-width: 2rem;
+    text-align: left;
+}
+
+.configWrap dl dd {
+    margin: .2rem 0 .5rem;
+}
+
+.configWrap .input-row {}
+
+.configWrap .input-row input,
+.configWrap .input-row textarea {
+    background-color: #fff;
+    border: none;
+    border-radius: .25rem;
+    display: block;
+    width: 100%;
+    height: 2.15rem;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    padding: 0 .5rem;
+    margin: 0;
+    font-family: inherit;
+    font-size: .85rem;
+    color: #3d4145;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+}
+
+.configWrap .input-row textarea {
+    height: auto;
+}
+.configWrap dl dd.expec{
+    font-size: .65rem;
+    color: #ccc;
+    margin: -.4rem 0 .7rem;
+}
+
+#main {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    left: 0;
+    top: 0;
+}

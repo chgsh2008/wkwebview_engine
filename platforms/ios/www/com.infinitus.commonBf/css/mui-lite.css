@@ -1,0 +1,87 @@
+
+
+.mui-hidden/*117*/
+{
+    display: none !important;
+}
+
+.mui-spinner/*705*/
+{
+    display: inline-block;
+
+    width: 24px;
+    height: 24px;
+
+    -webkit-transform-origin: 50%;
+            transform-origin: 50%;
+    -webkit-animation: spinner-spin 1s step-end infinite;
+            animation: spinner-spin 1s step-end infinite;
+}
+
+.mui-slider/*3574*/
+{
+    position: relative;
+
+    overflow: hidden;
+
+    width: 100%;
+}
+
+.mui-slider .mui-slider-group/*3621*/
+{
+    font-size: 0;
+
+    position: relative;
+
+    -webkit-transition: all 0s linear;
+            transition: all 0s linear;
+    white-space: nowrap;
+}
+
+.mui-slider .mui-slider-group/*3626*/
+{
+    font-size: 0;
+
+    position: relative;
+
+    -webkit-transition: all 0s linear;
+            transition: all 0s linear;
+    white-space: nowrap;
+}
+
+.mui-slider .mui-slider-group .mui-slider-item/*3636*/
+{
+    font-size: 14px;
+
+    position: relative;
+
+    display: inline-block;
+
+    width: 100%;
+    height: 100%;
+
+    vertical-align: top;
+    white-space: normal;
+}
+
+.mui-slider .mui-slider-group .mui-slider-item img/*3658*/
+{
+    width: 100%;
+}
+
+.mui-fullscreen/*4628*/
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+}
+
+.mui-fullscreen.mui-slider .mui-slider-group/*4639*/
+{
+    height: 100%;
+}

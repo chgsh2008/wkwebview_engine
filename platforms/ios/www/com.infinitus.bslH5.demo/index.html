@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+    <title>bsl</title>
+    <link rel="stylesheet" type="text/css" href="../com.infinitus.butterfly/bower_components/sui/dist/css/sm.css">
+    <!-- <link rel="stylesheet" type="text/css" href="../com.infinitus.butterfly/bower_components/sui/sm-extend.css"> -->
+    <link href="../com.infinitus.butterfly/css/main.css" rel="stylesheet" />
+    <link href="./style.css" rel="stylesheet" />
+    <!-- <link href="../com.infinitus.butterfly/css/component.css" rel="stylesheet" /> -->
+    <script type="text/javascript" src="../cordova.js"></script>
+<!--    <script type="text/javascript" src="../infinitus.js"></script>-->
+    <!-- 预加载（比如“听云”），使用 cordova 时，需要在 cordova.js 后加载 -->
+    <script id="preload-js" type="text/javascript" src="../com.infinitus.commonBf/js/preload.js"></script>
+</head>
+
+<body>
+    <div id="main" data-view="$StackView"></div>
+    <!-- loading容器 -->
+    <div id="loadingMask"></div>
+    <!-- modal容器 -->
+    <div id="Modal"></div>
+    <script type="text/javascript" src="../com.infinitus.butterfly/bower_components/requirejs/require.js" data-main="../com.infinitus.butterfly/js/butterfly-amd"></script>
+</body>
+
+</html>

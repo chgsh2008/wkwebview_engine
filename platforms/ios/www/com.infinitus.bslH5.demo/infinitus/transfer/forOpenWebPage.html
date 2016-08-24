@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta http-equiv="pragma" content="no-cache" />
+    <title>forOpenWebPage</title>
+</head>
+
+<body>
+这是被打开在webView的页面：<br/>
+forOpenPageWithTitle.html
+
+
+<div id="test"></div>
+<script>
+    function forCall(obj){
+        document.getElementById("test").innerHTML = "此页面的方法已被调用，您填的参数是:" + obj ;
+    }
+</script>
+</body>
+</html>
