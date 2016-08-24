@@ -1,49 +1,264 @@
-<!DOCTYPE html>
-<!--
-    Licensed to the Apache Software Foundation (ASF) under one
-    or more contributor license agreements.  See the NOTICE file
-    distributed with this work for additional information
-    regarding copyright ownership.  The ASF licenses this file
-    to you under the Apache License, Version 2.0 (the
-    "License"); you may not use this file except in compliance
-    with the License.  You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing,
-    software distributed under the License is distributed on an
-    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-     KIND, either express or implied.  See the License for the
-    specific language governing permissions and limitations
-    under the License.
--->
+<!DOCTYPE HTML>
 <html>
     <head>
-        <!--
-        Customize this policy to fit your own app's needs. For more guidance, see:
-            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
-        Some notes:
-            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
-            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
-            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
-                * Enable inline JS: add 'unsafe-inline' to default-src
-        -->
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
-        <meta name="format-detection" content="telephone=no">
-        <meta name="msapplication-tap-highlight" content="no">
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
-        <link rel="stylesheet" type="text/css" href="css/index.css">
-        <title>Hello World</title>
+        <meta charset="utf-8">
+<!--            <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">-->
+<meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval'">
+            <title>Demo</title>
+            <link href="a.css" rel="stylesheet" />
+            <script src="infinitus.js" type="text/javascript"></script>
+            <script src="bsl_infinitus.js" type="text/javascript"></script>
+            <script src="jquery-2.0.0.min.js" type="text/javascript"></script>
+            
+            <script type="text/javascript">
+                //---------------------------------跳转模块----------------------------------
+                function returnBack() {
+                    transfer.returnBack(true, "a", "b");
+                }
+            function goBack() {
+                transfer.goBack(false, "a", "b");
+            }
+            function goBack2() {
+                transfer.goBack(true, "a", "b");
+            }
+            
+            function openPage() {
+                transfer.openPage("help/index.htm", "a", "b", "abc");
+            }
+            function logoutByUserInvalid() {
+                transfer.logoutByUserInvalid();
+            }
+            function goHome() {
+                transfer.goHome();
+            }
+            //-------------------------------------工具-------------------------------
+            function getCommonParam() {
+                alert(JSON.stringify(tools.getCommonParam()));
+            }
+            function setTitle2() {
+                tools.setTitle("aoo");
+            }
+            function showDialog() {
+                tools
+                .showDialog(
+                            "aoo",
+                            "123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123888888的健康法山莨菪法山莨菪碱发路看电视剧拉德斯基陆地上考虑见多说两句多少是收到发收法山莨菪碱发路看电视剧拉德斯基陆地上考虑见多说两句多少是收到发收法山莨菪碱发路看电视剧拉德斯基陆地上考虑见多说两句多少是收到发收法山莨菪碱发路看电视剧拉德斯基陆地上考虑见多说两句多少是收到发收法山莨菪碱发路看电视剧拉德斯基陆地上考虑见多说两句多少是收到发收法山莨菪碱发路看电视剧拉德斯基陆地上考虑见多说两句多少是收到发收法山莨菪碱发路看电视剧拉德斯基陆地上考虑见多说两句多少是收到发收法山莨菪碱发路看电视剧拉德斯基陆地上考虑见多说两句多少是收到发收法山莨菪碱发路看电视剧拉德斯基陆地上考虑见多说两句多少是收到发收法山莨菪碱发路看电视剧拉德斯基陆地上考虑见多说两句多少是收到发收法山莨菪碱发路看电视剧拉德斯基陆地上考虑见多说两句多少是收到发收法山莨菪碱发路看电视剧拉德斯基陆地上考虑见多说两句多少是收到发收法山莨菪碱发路看电视剧拉德斯基陆地上考虑见多说两句多少是收到发收法山莨菪碱发路看电视剧拉德斯基陆地上考虑见多说两句多少是收到发收法山莨菪碱发路看电视剧拉德斯基陆地上考虑见多说两句多少是收到发收法山莨菪碱发路看电视剧拉德斯基陆地上考虑见多说两句多少是收到发收法山莨菪碱发路看电视剧拉德斯基陆地上考虑见多说两句多少是收到发收法山莨菪碱发路看电视剧拉德斯基陆地上考虑见多说两句多少是收到发收法山莨菪碱发路看电视剧拉德斯基陆地上考虑见多说两句多少是收到发收法山莨菪碱发路看电视剧拉德斯基陆地上考虑见多说两句多少是收到发收法山莨菪碱发路看电视剧拉德斯基陆地上考虑见多说两句多少是收到发收法山莨菪碱发路看电视剧拉德斯基陆地上考虑见多说两句多少是收到发收法山莨菪碱发路看电视剧拉德斯基陆地上考虑见多说两句多少是收到发收法山莨菪碱发路看电视剧拉德斯基陆地上考虑见多说两句多少是收到发收法山莨菪碱发路看电视剧拉德斯基陆地上考虑见多说两句多少是收到发收法山莨菪碱发路看电视剧拉德斯基陆地上考虑见多说两句多少是收到发收法山莨菪碱发路看电视剧拉德斯基陆地上考虑见多说两句多少是收到发收法山莨菪碱发路看电视剧拉德斯基陆地上考虑见多说两句多少是收到发收法山莨菪碱发路看电视剧拉德斯基陆地上考虑见多说两句多少是收到发收法山莨菪碱发路看电视剧拉德斯基陆地上考虑见多说两句多少是收到发收法山莨菪碱发路看电视剧拉德斯基陆地上考虑见多说两句多少是收到发收法山莨菪碱发路看电视剧拉德斯基陆地上考虑见多说两句多少是收到发收法山莨菪碱发路看电视剧拉德斯基陆地上考虑见多说两句多少是收到发收法山莨菪碱发路看电视剧拉德斯基陆地上考虑见多说两句多少是收到发收法山莨菪碱发路看电视剧拉德斯基陆地上考虑见多说两句多少是收到发收法山莨菪碱发路看电视剧拉德斯基陆地上考虑见多说两句多少是收到发收法山莨菪碱发路看电视剧拉德斯基陆地上考虑见多说两句多少是收到发收法山莨菪碱发路看电视剧拉德斯基陆地上考虑见多说两句多少是收到发收法山莨菪碱发路看电视剧拉德斯基陆地上考虑见多说两句多少是收到发收法山莨菪碱发路看电视剧拉德斯基陆地上考虑见多说两句多少是收到发收法山莨菪碱发路看电视剧拉德斯基陆地上考虑见多说两句多少是收到发收法山莨菪碱发路看电视剧拉德斯基陆地上考虑见多说两句多少是收到发收法山莨菪碱发路看电视剧拉德斯基陆地上考虑见多说两句多少是收到发收法山莨菪碱发路看电视剧拉德斯基陆地上考虑见多说两句多少是收到发收法山莨菪碱发路看电视剧拉德斯基陆地上考虑见多说两句多少是收到发收碱发路看电视剧拉德斯基陆地上考虑见多说两句多少是收到发收到",
+                            [ "l", "r" ], "id");
+            }
+            function setBackAction(iint) {
+                if (iint == 1)
+                tools.setBackAction("aa");
+                else
+                tools.setBackAction("");
+            }
+            function showload() {
+                tools.showLoading("sss");
+            }
+            function hideload() {
+                tools.dismissLoading();
+            }
+            function showToast2() {
+                tools.showToast("abc");
+            }
+            function getHost() {
+                alert(JSON.stringify(tools.getHost()));
+            }
+            
+            function getchooseMorePhoto() {
+                tools.chooseSysPhoto("restule");
+            }
+            
+            function restule(res){
+                alert(res);
+                var path=res.split(",");
+                var jsonText = JSON.stringify(path);
+                tools.uploadFileByByte(jsonText,
+                                       jsonText,"/gbss-otms/front/gbss-otms-mobile/message/getUpToken","qiniuback");
+            }
+            
+            function showDialogInfo(){
+                tools.showDialogInfo("xxxxx","restule");
+            }
+            
+            function scan(){
+                tools.scanBarcode("restule");
+            }
+            function openNewWebView(){
+                //transfer.openPage("com.infinitus.haveawardactivity/index.html#com.infinitus.haveawardactivity/haveAwardActivityDetails");
+                transfer.openPage("indexa.html",false);
+            }
+            function addParam(){
+                for (var index = 0; index < 10; index++) {
+                    tools.setWebViewParam(index+"",index+"这是值");
+                }
+            }
+            
+            function getParam() {
+                for (var index = 0; index < 10; index++) {
+                    if(tools.getWebViewParam(index+"")!=null&&tools.getWebViewParam(index+"")!=""){
+                        alert(tools.getWebViewParam(index+""));
+                    }
+                }
+            }
+            
+            function clearParam(){
+                tools.clearWebViewParam();
+            }
+            
+            function showWeChat(){
+                /*content
+                分享内容（新浪、腾讯、网易、搜狐、豆瓣、人人、开心、有道云笔记、facebook、twitter、邮件、打印、短信、微信、QQ、拷贝）
+
+                defaultContent
+                默认分享内容（新浪、腾讯、网易、搜狐、豆瓣、人人、开心、有道云笔记、facebook、twitter、邮件、打印、短信、微信、QQ、拷贝）
+
+                image
+                分享图片（新浪、腾讯、网易、搜狐、豆瓣、人人、开心、facebook、twitter、邮件、打印、微信、QQ、拷贝）
+
+
+                title
+                标题（QQ空间、人人、微信、QQ）
+
+                url	
+                链接（QQ空间、人人、instapaper、微信、QQ）
+
+                description	
+                主体内容（人人）
+
+                mediaType	
+                分享类型（QQ、微信）
+                 */
+                tools.share2WX("奖励","恭喜你中大奖啦！！！","http://www.baidu.com","http://g.hiphotos.baidu.com/image/pic/item/21a4462309f79052be4767300ef3d7ca7bcbd567.jpg","",1);
+            }
+            
+            function writeconsole(){
+                console.log("dddddddddddddddddd");
+            }
+            
+            function openReportAction(){
+                transfer.openReportAction("EMCS-PHONE-1-7-10");
+            }
+            
+            function gotoBusinessQuery(){
+                transfer.gotoBusinessQuery("EMCS-PHONE-1-7");
+            }
+            
+            function openNewWebView2(){
+                transfer.openFunction();
+            }
+            function uploadContacts2server(){
+                transfer.uploadContacts2server("restule");
+            }
+            function showLastNetworkErrorInfo(){
+                network.showLastNetworkErrorInfo();
+            }
+            
+            //network.showLastNetworkErrorInfo();
+            
+            
+            function closeActivity(){
+                tools.closeActivity();
+            }
+            function getLocation() {
+                tools.getLocation("didGetLocation");
+            }
+            function takePhoto() {
+                tools.takePhoto("didTakePhoto");
+            }
+            function didGetLocation(jd,wd) {
+                alert("===="+jd+"===="+wd);
+            }
+            function didTakePhoto(path) {
+                
+                alert("==="+path);
+                
+                var image=document.getElementById("image1");
+                image.setAttribute("src",path);
+                tools.uploadFileByByte("[\""+path+"\"]",
+                                       "[\"key"+path+"\"]","/gbss-otms/front/gbss-otms-mobile/message/getUpToken","qiniuback");
+            }
+            function qiniuback(e){
+                alert("eee");
+            }
+            function toqiniu(){
+                tools.uploadFileByByte("['/storage/emulated/0/DCIM/Camera/IMG_20150504_160548.jpg', '/storage/emulated/0/DCIM/Screenshots/Screenshot_2015-04-27-14-40-53.png']",
+                                       "['abc123','bcd234']","/gbss-otms/front/gbss-otms-mobile/message/getUpToken","a");
+            }
+            function sendMessage(){
+//                bsl.transfer.returnBack(true,"JSSD","parmam");
+                bsl.tools.sendMessage("13620103377", "内容");
+            }
+                function gotoH5Demo(){
+                    window.location.href="Demo/index.html";
+                }
+
+            function addNotification(){
+                var json =             {
+                    "firstTime" : "2015-10-29 15:50:00",// yyyy-MM-dd HH:mm:ss
+                    "ID" : "12345",
+                    "repeatInterval" : "0", //0123 (0 不循环 , 1 一天 ， 2周  以此类推)
+                    "repeatNumber" : "2", // 当用户不处理的时候，再次处理的次数，默认0次 。
+                    "content" :"我就是内容",
+                    "title" :"我还是标题",
+                }
+                bsl.notification.addNotification(json,callback,errcallback)
+            }
+            function removeNotification(){
+                var json =             {
+                    "firstTime" : "2015-10-29 15:50:00",// yyyy-MM-dd HH:mm:ss
+                    "ID" : "12345",
+                    "repeatInterval" : "0", //0123 (0 不循环 , 1 一天 ， 2周  以此类推)
+                    "repeatNumber" : "2", // 当用户不处理的时候，再次处理的次数，默认0次 。
+                    "content" :"我就是内容",
+                    "title" :"我还是标题",
+                }
+                bsl.notification.removeNotification(json,callback,errcallback)
+            }
+            </script>
     </head>
-    <body>
-        <div class="app">
-            <h1>Apache Cordova</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
-            </div>
-        </div>
-        <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-    </body>
-</html>
+    
+    <body align="center">
+        <p style="font-family:huakang;">跳转模块-->1</p>
+        <button onclick="returnBack();">返回</button>
+        <button onclick="goBack();">一层一层的返回</button>
+        <button onclick="goBack2();">直接返回到第一层</button>
+        <button onclick="openPage();">跳转帮助页</button>
+        <button onclick="logoutByUserInvalid();">注销到登录页</button>
+        <button onclick="goHome();">返回首页</button>
+        <p>工具</p>
+        <button onclick="getCommonParam();">获取公共参数</button>
+        <button onclick="setTitle2();">设置标题</button>
+        <button onclick="showDialog();">打开对话框</button>
+        <button onclick="setBackAction(1);">设置返回事件</button>
+        <button onclick="setBackAction(2);">取消返回事件</button>
+        <button onclick="showload();">进度框</button>
+        <button onclick="hideload();">隐藏进度框</button>
+        <button onclick="showToast2();">显示showToast</button>
+        <button onclick="getHost();">获取请求地址</button>
+        <button onclick="getchooseMorePhoto();">获取多张图片</button>
+        <button onclick="showDialogInfo();">弹出对话框</button>
+        <button onclick="scan();">二维码</button>
+        <button onclick="addParam();">全局加值</button>
+        <button onclick="getParam()">获取全局的值</button>
+        <button onclick="clearParam()">清除全局值</button>
+        <button onclick="showWeChat()">平台内容分享</button>
+        <button onclick="writeconsole()">打应控制台</button>
+        <button onclick="openReportAction()">打开报表</button>
+        <button onclick="gotoBusinessQuery()">跳到查询页面</button>
+        <button onclick="uploadContacts2server()">跳到选择联系人页面</button>
+        <button onclick="showLastNetworkErrorInfo()">弹出层</button>
+        <button onclick="closeActivity()">关闭多层activity</button>
+        <button onclick="openNewWebView();">打开一个新的WebActivity</button>
+        <button onclick="openNewWebView2();">打开一个新的WebActivity2</button>
+        <button onclick="getLocation();">获取经纬度</button>
+        <button onclick="takePhoto();">拍照</button>
+        <button onclick="toqiniu();">toqiniu</button>
+        <button onclick="sendMessage();">发送短信</button>
+        <button onclick="gotoH5Demo();">H5插件Demo</button>
+        <button onclick="addNotification();">添加本地通知</button>
+        <button onclick="removeNotification();">删除本地通知</button>
+        
+        <img id="image1" width="256" height="199" src=""/>
+        
+        </body>
+        </html>

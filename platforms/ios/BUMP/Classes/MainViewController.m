@@ -52,9 +52,14 @@
         //create directory
         success = [fm createDirectoryAtURL:[self wwwRuntimeDirectory] withIntermediateDirectories:YES attributes:nil error:&error];
         NSLog(@"document path: %@",[self wwwRuntimeDirectory]);
+        NSLog(@"bundle path: %@",[self wwwBundleDirectory]);
         //copy
         success = [fm copyFolderAtURL:[self wwwBundleDirectory] toURL:[NSFileManager wwwRuntimeDirectory] error:&error];
         if (!success) NSLog(@"复制www目录失败,%@", error);
+        
+        NSURL *configUrl = [[[NSBundle mainBundle] bundleURL] URLByAppendingPathComponent:@"config.xml"];
+        success = [fm copyItemAtURL:configUrl toURL:[[NSFileManager wwwRuntimeDirectory] URLByAppendingPathComponent:@"config.xml"] error:&error];
+        if (!success) NSLog(@"复制config失败,%@", error);
         
         
         NSURL *www = [self wwwRuntimeDirectory];

@@ -15,8 +15,6 @@
         <param name="ios-package" value="CDVGestureHandler" />
         <param name="onload" value="true" />
     </feature>
-    
-    <!-- e帆网 -->
     <feature name="BSLDatabase">
         <param name="ios-package" value="BSLDatabase" />
     </feature>
@@ -38,7 +36,9 @@
     <feature name="BSLBaiduStatistical">
         <param name="ios-package" value="BSLBaiduStatistical" />
     </feature>
-
+    <feature name="BSLCatStatistical">
+        <param name="ios-package" value="BSLCatStatistical" />
+    </feature>
     <name>BUMP</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
@@ -48,15 +48,22 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
+    <access subdomains="true" uri="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
+    <allow-intent href="file:///*" />
     <allow-intent href="tel:*" />
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <allow-intent href="itms:*" />
     <allow-intent href="itms-apps:*" />
+    <allow-intent href="*" />
     <allow-navigation href="*" />
+    <allow-navigation href="http://*/*" />
+    <allow-navigation href="https://*/*" />
+    <allow-navigation href="data:*" />
+    <allow-navigation href="file:///*" />
     <preference name="AllowInlineMediaPlayback" value="false" />
     <preference name="BackupWebStorage" value="local" />
     <preference name="DisallowOverscroll" value="false" />
@@ -74,4 +81,10 @@
         <param name="ios-package" value="CDVWKWebViewEngine" />
     </feature>
     <preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
+    <feature name="NetworkStatus">
+        <param name="ios-package" value="CDVConnection" />
+    </feature>
+    <feature name="InAppBrowser">
+        <param name="ios-package" value="CDVInAppBrowser" />
+    </feature>
 </widget>

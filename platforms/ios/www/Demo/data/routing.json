@@ -1,0 +1,21 @@
+[
+ {
+ "identifier":"pushTest",
+ "mappings": [
+              {"/index/{id}/{detail}":"TestPushViewController"},
+              {"/second":"TestPushDetailController"}
+              ]
+ },
+ {
+ "identifier":"com.foss.message.record",
+ "mappings": [
+              {"/index":"MessageViewController"}
+              ]
+ },
+ {
+ "identifier":"com.foss.announcement",
+ "mappings": [
+              {"/index":"AnnouncementTableViewController"}
+              ]
+ }
+]

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="msapplication-tap-highlight" content="no"/>
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width"/>
+    <link rel="stylesheet" type="text/css" href="css/button.css"/>
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+    <title>信息</title>
+    <script type="text/javascript" src="../cordova.js"></script>
+    <script data-main="message_index" src="../vendor/lib/require.js"></script>
+    <script type="text/javascript" src="../infinitus.js"></script>
+</head>
+<body>
+</br>
+</br>
+<p style="font-family:huakang;">信息</p>
+<p>host: <input type="text" id="host" /></p>
+<p>port: <input type="text" id="port" /></p>
+<p>account: <input type="text" id="account" /></p>
+password: <input type="password" id="password" />
+
+
+<button id="setEmailSenderInfo">setEmailSenderInfo </button></br>
+<p>to: <input type="text" id="to" /></p>
+<p>cc: <input type="text" id="cc" /></p>
+<p>bcc: <input type="text" id="bcc" /></p>
+<p>attach: <input type="text" id="attach" /></p>
+<p>title: <input type="text" id="title" /></p>
+content: <textarea type="text" style=" height=80pix " id="content"></textarea>
+
+
+
+<button id="sendEmail">sendEmail </button>
+
+<p>messageTo: <input type="text" id="messageTo" /></p>
+messageContent: <textarea type="text" style=" height=30pix " id="messageContent">
+</textarea>
+
+
+<button id="sendMessage">sendMessage </button>
+</body>
+</html>

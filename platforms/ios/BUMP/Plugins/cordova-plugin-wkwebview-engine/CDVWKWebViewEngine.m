@@ -64,6 +64,16 @@
 
         wkWebView.UIDelegate = self.uiDelegate;
         wkWebView.navigationDelegate = self.wkNavigationDelegate;
+        
+        
+        // 设置偏好设置
+        configuration.preferences = [[WKPreferences alloc] init];
+        // 默认为0
+        configuration.preferences.minimumFontSize = 10;
+        // 默认认为YES
+        configuration.preferences.javaScriptEnabled = YES;
+        // 在iOS上默认为NO，表示不能自动通过窗口打开
+        configuration.preferences.javaScriptCanOpenWindowsAutomatically = NO;
 
         self.engineWebView = wkWebView;
 
